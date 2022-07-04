@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var quoteViewModel: QuoteViewModel
     lateinit var adapter: QuotePagingAdapter
+    // view Binding
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
